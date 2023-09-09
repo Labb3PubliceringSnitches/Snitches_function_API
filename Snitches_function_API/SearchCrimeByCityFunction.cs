@@ -37,7 +37,7 @@ namespace Snitches_function_API
         {
             try
             {
-                string searchWord = req.Query["City"];
+                string searchWord = req.Query["City"]; // Takes input from user
                 string apiUrl = $"http://polisen.se/api/events?locationName={searchWord}";
 
                 HttpResponseMessage response = await client.GetAsync(apiUrl);
