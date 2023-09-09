@@ -27,7 +27,7 @@ namespace Snitches_function_API
             _logger = log;
         }
 
-        [FunctionName("SearchCrimeByCity")]
+        [FunctionName("SearchCrimeByCityName")]
         [OpenApiOperation(operationId: "Run")]
         [OpenApiSecurity("function_key", SecuritySchemeType.ApiKey, Name = "code", In = OpenApiSecurityLocationType.Query)]
         [OpenApiParameter(name: "City", In = ParameterLocation.Query, Required = true, Type = typeof(string))]
