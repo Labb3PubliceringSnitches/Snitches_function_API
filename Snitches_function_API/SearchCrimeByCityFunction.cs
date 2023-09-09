@@ -26,7 +26,7 @@ namespace Snitches_function_API
         {
             _logger = log;
         }
-        //TEST
+        //TEST2
 
         [FunctionName("SearchCrimeByCityName")]
         [OpenApiOperation(operationId: "Run")]
