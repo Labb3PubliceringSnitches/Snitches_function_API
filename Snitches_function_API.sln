@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snitches_function_API", "Snitches_function_API\Snitches_function_API.csproj", "{C536A31B-F2A2-4D04-A51C-E084953FD7E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snitches_function_API", "Snitches_function_API\Snitches_function_API.csproj", "{C536A31B-F2A2-4D04-A51C-E084953FD7E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0D419DC1-C90D-4994-AC1D-8DC8DBDA7710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{4D514CAC-E259-4CD3-A8AB-C437484F618A}"
+	ProjectSection(SolutionItems) = preProject
+		Snitches_function_API\.github\workflows\TriggerTerraform.yml = Snitches_function_API\.github\workflows\TriggerTerraform.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D514CAC-E259-4CD3-A8AB-C437484F618A} = {0D419DC1-C90D-4994-AC1D-8DC8DBDA7710}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF27D78A-9A20-4CA9-8334-579303F8BDDB}
