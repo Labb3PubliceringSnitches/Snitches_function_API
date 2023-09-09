@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger Repo A Workflow
+      - name: Trigger Terraform Workflow
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.SOURCE_PAT_ME }}
