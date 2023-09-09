@@ -16,4 +16,7 @@
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\workflows\TriggerTerraform.yml" />
+  </ItemGroup>
 </Project>
