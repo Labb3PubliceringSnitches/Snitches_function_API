@@ -1,0 +1,18 @@
+name: Trigger Terraform Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Repo A Workflow
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.SOURCE_PAT_ME }}
+          repository: Labb3PubliceringSnitches/Terraform
+          event-type: push-to-repo
