@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Snitching_function_API": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7241",
+      "launchBrowser": false
+    }
+  }
+}
