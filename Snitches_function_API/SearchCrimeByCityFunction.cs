@@ -21,6 +21,7 @@ namespace Snitches_function_API
     {
         private readonly ILogger<SearchCrimeByCityFunction> _logger;
         private HttpClient client = new();
+        //test
 
         public SearchCrimeByCityFunction(ILogger<SearchCrimeByCityFunction> log)
         {
